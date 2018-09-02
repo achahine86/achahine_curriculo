@@ -1,0 +1,156 @@
+*   {box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: 'Rambla', sans-serif;}
+     /*tamanhos de fonte:
+     h1: 36px 2.6m;
+     h2: 28px 2em;
+     h3: 22px 1.6em;
+     corpo do texto: 14px*/
+
+.body{
+    font-size: 14px;
+}
+
+.container{
+    background: #71726d;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    color: #e7cc8f;
+    font-size: 2.6em;
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+    /*background: blue;*/
+}
+    
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    text-align: right;
+    height: 100%;
+    align-items: center;
+}
+
+.menu li{
+    padding: 1em;
+}
+
+.menu li a{
+    color: #e7cc8f;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 20px;
+    /*background: blue;*/
+}
+
+.menu li a:hover{
+    color:#ab3e16;
+}
+
+.topo{
+    background: #e7cc8f;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.telefone{
+    color: #71726d;
+    font-size: 2em;
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+    /*background: blue;*/
+}
+
+.icones ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+}
+
+.icones li{
+    flex: 1;
+    padding: 1em;
+}
+
+.background{
+    background-color: #71726d;
+}
+
+.banner img{
+    height: 487px;
+    width: auto;
+    padding: 20px;
+    background: blue;
+}
+
+.banner h2{
+    font-size: 2em; /*ok*/
+    color: #e7cc8f; /*ok*/
+    display: flex; /*ok*/
+    justify-content: center; /*ok*/
+    padding: 20px; /*ok*/
+}
+
+.portfolio h2{
+    font-size: 2em; /*ok*/
+    color: #e7cc8f; /*ok*/
+    padding: 20px; /*ok*/
+    background: blue; /*ok*/
+}
+
+.portfolio{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.portfolio p{
+    color: #e7cc8f;
+    font-size: 1.6em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.bio{
+    text-align: left;
+    width: 100%;
+    padding: 3%;
+}
+
+.bio-itens{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.bio-icones ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+}
+
+.bio-icones li{
+    display: flex;
+    padding: 20px;    
+}
+
+.contato{
+    width: 100%;
+    padding: 0 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
